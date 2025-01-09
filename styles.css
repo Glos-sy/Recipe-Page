@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    %- margin, width
+    rem- font-size, spacing
+    px- icons, border
+*/
+
+body {
+    background-color: hsl(330, 100%, 98%)
+}
+
+main {
+    background-color: white;
+    width: 50%;
+    margin: 4.5% auto;
+    padding: 2.5%;
+    border-radius: 20px;
+}
+
+main img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 0 5%;
+}
+
+
+/* SECTION ONE STYLING */
+#one h1 {
+    font-size: 3rem;
+    margin: 0 0 2%;
+    color: black;
+}
+
+#one p {
+    font-size: 1.3rem;
+    color: hsl(24, 5%, 18%);
+}
+
+
+/* SECTION TWO STYLING */
+#two {
+    margin: 5% 0;
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.7rem 2rem;
+    border-radius: 17px;
+}
+
+#two h3 {
+    font-size: 1.7rem;
+    margin: 0 0 1rem;
+    color: hsl(332, 51%, 32%);
+}
+
+#two ul {
+    margin-left: 1rem;
+}
+
+#two ul li, #three ul li, #four ol li {
+    font-size: 1.3rem;
+    color: hsl(24, 5%, 18%);
+}
+
+#two ul li {
+    margin: 0.7rem 0;
+}
+
+#two ul li span, #four ol li span {
+    font-weight: 600;
+}
+
+
+/* SECTION THREE STYLING */
+#three {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+
+}
+
+#three h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 2.3rem;
+    margin: 0 0 1.5rem;
+}
+
+#three ul li {
+    margin: 0 0 1rem 2rem;
+}
+
+
+/* SECTION FOUR STYLING */
+#four {
+    margin: 2.8rem 0;
+}
+
+#four h2, #five h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 2.3rem;
+    margin: 0 0 1rem;
+}
+
+#four ol {
+    margin-left: 1rem;
+}
+
+#four ol li {
+    margin-bottom: 1rem;
+}
+
+
+/* SECTION FIVE STYLING */
+#five p {
+    font-size: 1.3rem;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 1rem;
+}
+
+#five table tr td .table-value {
+    color: hsl(332, 51%, 32%);
+}
+
+#five table tr {
+    border-bottom: 1px solid black
+}
