@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLING */
+body {
+    background-color: white;
+}
+
+main {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+}
+
+main img {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+}
+
+.txt-one, #two, #three, #four, #five {
+    margin: 4% 7%;
+}
+
+#six {
+    margin: 7% auto;
+}

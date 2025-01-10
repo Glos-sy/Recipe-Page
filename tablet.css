@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* GENERAL STYLING */
+main {
+    background-color: white;
+    width: 75%;
+    margin: 8% auto;
+    padding: 3.5%;
+}
+
+/* SECTION FIVE STYLING */
+#table tr {
+    width: 90%;
+}

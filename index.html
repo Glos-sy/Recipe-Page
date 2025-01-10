@@ -5,17 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe-Page</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="tablet.css" media="(max-width: 1024px)" />
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 600px)" />
+    <link rel="stylesheet" href="smaller.css" media="(max-width: 416px)" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <section id="one">
         <img src="./Media/image-omelette.jpeg" alt="Image of an omelette" />
-        <h1>Simple Omelette Recipe</h1>
-        <p>
-          An easy and quick dish, perfect for any meal. This classic omelette
-          combines beaten eggs cooked to perfection, optionally filled with your
-          choice of cheese, vegetables, or meats.
-        </p>
+        <div class="txt-one">
+          <h1>Simple Omelette Recipe</h1>
+          <p>
+            An easy and quick dish, perfect for any meal. This classic omelette
+            combines beaten eggs cooked to perfection, optionally filled with
+            your choice of cheese, vegetables, or meats.
+          </p>
+        </div>
       </section>
 
       <section id="two">
@@ -80,7 +91,7 @@
           The table below shows nutritional values per serving without the
           additional fillings.
         </p>
-        <table>
+        <table id="table">
           <tr>
             <td>Calories</td>
             <th class="table-value">277kcal</th>
@@ -101,10 +112,18 @@
       </section>
 
       <section id="six">
-        Challenge by
-        <a href="https://www.frontendmentor.io/?ref=challenge"
-          >Frontend Mentor</a
-        >. Coded by <a href="">Glos_syQueen</a>
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io/?ref=challenge" class="fe-m"
+            >Frontend Mentor</a
+          >. <br />
+          Coded by
+          <a
+            href="https://x.com/Glos_syQueen?t=H5Utln8vxMk09GYndI9cmQ&s=09"
+            class="g-q"
+            >Me!</a
+          >
+        </p>
       </section>
     </main>
   </body>
